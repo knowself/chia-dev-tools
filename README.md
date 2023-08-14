@@ -19,9 +19,11 @@ cdv --version
 
 Requires: Installation of [Python 3 for Windows](https://www.python.org/downloads/windows/)
 
+For Windows commands the `/` should be replaced with `\`
+
 ```
 py -m venv venv
-./venv/Scripts/activate
+.\venv\Scripts\activate
 pip install --extra-index-url https://pypi.chia.net/simple/ chia-dev-tools
 cdv --version
 ```
